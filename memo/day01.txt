@@ -1,0 +1,20 @@
+DB(Database)
+	데이터가 모여 있는 기지.
+	추상적인 용어.
+
+DBMS(Database Management System)
+	데이터를 관리할 수 있는 구체적인 시스템.
+	오라클, 마리아DB, MYSQL, MS-SQL, Mongo,....
+
+오라클 DBMS 설치
+	www.oracle.com/indec/html - 구글에 오라클 검색 후 주소창에 /kr 지워주기
+	페이지 상단에 있는 돋보기 모양 클릭 > 11g 검색 > 첫번째로 나오는 검색 결과 링크 클릭
+	> 좌측에 있는 Download 버튼 클릭 > 페이지 하단에 있는 Oracle Database 11g Release 2 Express Edition
+	링크 클릭 > 운영체제와 비트에 맞게 다운로드 > 오라클 로그인
+
+	다운받은 압출파일을 풀면, DISK1폴더가 나오고 그 안에 setup.exe를 실행시켜서 설치를 진행한다.
+	비밀번호는 1234로 설정했다.
+
+오라클DBMS 설치 확인
+	cmd창 열기 > sqlplus sys as sysdba > 비밀번호 입력 > 엔터
+	SQL > 나오면 성공!
